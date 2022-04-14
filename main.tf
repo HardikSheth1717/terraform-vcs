@@ -23,6 +23,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example_rg" {
-  name     = "example-rg"
-  location = "westindia"
+  name     = var.resource_group_name
+  location = var.azure_region
 }
