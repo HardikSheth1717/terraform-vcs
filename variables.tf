@@ -9,3 +9,4 @@ variable "azure_region" {
   description = "Region name of Azure DC"
   type        = string
 }
+
